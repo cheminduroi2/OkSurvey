@@ -1,0 +1,30 @@
+.home {
+  background:
+  /* top, transparent black, faked with gradient */
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  /* bottom, image */
+  url(../../images/home_bg.jpg);
+  height: 100%;
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.title-container {
+  height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.5rem;
+}
+
+div.title-container p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  margin: 0;
+}
